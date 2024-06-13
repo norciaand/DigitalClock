@@ -25,10 +25,10 @@ function updateTime() {
     }
 
 
-
     clock.innerText = clockStr;
     calendar.innerText = calendarStr;
 }
 
 updateTime();
 setInterval(updateTime, 1000);
+
